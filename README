@@ -1,0 +1,18 @@
+Debian Package coursework INFO6005
+--------------------------------------------
+
+The steps that have been followed in order to build the debian package are the following:
+
+1) Created a directory called cw-6005-pk3g11/cw-6005-pk3g11-1.0.
+2) Download the source code files from the gitrepository.
+3) On the directory cw-6005-pk3g11/cw-6005-pk3g11-1.0. i used the command
+dh_make -e pk3g11.ecs.soton.ac.uk -c gpl3 --native --indep, to create the debian folder.
+4) Modify the control file and copyright file 
+5) Inside the debian folder i created cw1-6005-pk3g11.install file that points the files that needs.
+to be installed this includes the source code files and a file called newsfeeds which is a scriptfile to
+invoke php code.
+6) Inside the cw1-6005-pk3g11-1.0 folder i created newsfeeds script file.
+7) Build the package with the command fakeroot dpkg-buildpackage inside the cw-6005-pk3g11/cw-6005-pk3g11-1.0.
+8) Run lintian cw1-6005-pk3g11_1.0_all.deb resolve the issues and building again the package.
+9) Install the package with the command sudo dpkg -i cw1-6005-pk3g11_1.0_all.deb.
+10) Invoke the php code by the command line typing newsfeeds.

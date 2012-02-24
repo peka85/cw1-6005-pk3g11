@@ -1,0 +1,13 @@
+Package: cw1-6005-pk3g11
+Version: 1.0
+Architecture: all
+Maintainer: Petros Kagkas <pk3g11@ecs.soton.ac.uk>
+Installed-Size: 22
+Section: web
+Priority: extra
+Homepage: https://github.com/peka85/cw1_6005_pk3g11
+Description: Simple PHP RSS Reader for INFO6005
+ This is part of a coursework for Students on the INFO6005
+ course at the University of Southampton.
+ In this course students are expected to package some code
+ for distribution on the debian/ubuntu platform

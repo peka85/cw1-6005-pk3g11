@@ -1,0 +1,18 @@
+Source: cw1-6005-pk3g11
+Section: web
+Priority: extra
+Maintainer: Petros Kagkas <pk3g11@ecs.soton.ac.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/peka85/cw1_6005_pk3g11
+#Vcs-Git: git://git.debian.org/collab-maint/cw1-6005-pk3g11.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/cw1-6005-pk3g11.git;a=summary
+
+Package: cw1-6005-pk3g11
+Architecture: all
+Description: Simple PHP RSS Reader for INFO6005
+ This is part of a coursework for Students on the INFO6005
+ course at the University of Southampton. 
+ In this course students are expected to package some code
+ for distribution on the debian/ubuntu platform
+

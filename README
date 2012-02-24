@@ -7,7 +7,7 @@ The steps that have been followed in order to build the debian package are the f
 2) Download the source code files from the gitrepository.
 3) On the directory cw-6005-pk3g11/cw-6005-pk3g11-1.0. i used the command
 dh_make -e pk3g11.ecs.soton.ac.uk -c gpl3 --native --indep, to create the debian folder.
-4) Modify the control file and copyright file 
+4) Modify the control file and copyright file. 
 5) Inside the debian folder i created cw1-6005-pk3g11.install file that points the files that needs.
 to be installed this includes the source code files and a file called newsfeeds which is a scriptfile to
 invoke php code.
